@@ -35,6 +35,7 @@ DevOps & Containerization  Docker, Docker Compose
 
 Repository Layout
 
+```bash
 diagnosx/
 ├── client/                 # React + Vite Frontend
 │   ├── src/
@@ -57,6 +58,7 @@ diagnosx/
 │   └── requirements.txt
 │
 └── docker-compose.yml      # Multi-container orchestration config
+```
 
 Quick Start & Local SetupOption 1: Docker Compose (Recommended)Run the entire full-stack application environment (MongoDB, FastAPI, Express, React) with a single command:# Clone repository
 git clone https://github.com/your-username/diagnosx.git
