@@ -22,7 +22,20 @@ DiagnosX — Full-Stack AI Symptom Checker & Doctor Recommendation SystemAn ente
           └───────────────────────────┘   └───────────────────────────┘
 
 Key Features
-AI-Powered Symptom Triage: Interactive multi-step form capturing body region, duration, severity index (1-10), and custom symptom vectors routed to a Python ML microservice. Doctor Match Engine: Dynamic search and filtering system matching triage outcome specialties (Cardiology, Neurology, Pulmonology, etc.) with available specialist doctor profiles. Instant Consultation Booking: Interactive slot selection modal connected with live appointment state persistence.Patient Dashboard: Patient history tracking with full assessment log exports (JSON format) and active WebRTC consultation links. Doctor Triage Portal: Specialized portal allowing doctors to review incoming patient referrals, examine AI confidence scores, and accept cases. Embedded Architecture Viewer: Interactive code and diagram viewer directly in the application UI demonstrating production backend, microservice, schema, and configuration source codes. Technology StackLayerTechnologies UsedFrontendReact 18, Vite, Tailwind CSS, Redux Toolkit, React Router v6, Lucide IconsBackend API GatewayNode.js, Express.js, JSON Web Tokens (JWT), Bcrypt.js, AxiosAI MicroservicePython 3.10+, FastAPI, Pydantic, UvicornDatabaseMongoDB, Mongoose ODMDevOps & ContainerizationDocker, Docker Compose Repository Layoutdiagnosx/
+AI-Powered Symptom Triage: Interactive multi-step form capturing body region, duration, severity index (1-10), and custom symptom vectors routed to a Python ML microservice. Doctor Match Engine: Dynamic search and filtering system matching triage outcome specialties (Cardiology, Neurology, Pulmonology, etc.) with available specialist doctor profiles. Instant Consultation Booking: Interactive slot selection modal connected with live appointment state persistence.Patient Dashboard: Patient history tracking with full assessment log exports (JSON format) and active WebRTC consultation links. Doctor Triage Portal: Specialized portal allowing doctors to review incoming patient referrals, examine AI confidence scores, and accept cases. Embedded Architecture Viewer: Interactive code and diagram viewer directly in the application UI demonstrating production backend, microservice, schema, and configuration source codes. 
+
+Technology Stack
+
+Layer                      Technologies Used
+Frontend                   React 18, Vite, Tailwind CSS, Redux Toolkit React Router v6, Lucide Icons
+Backend API Gateway        Node.js, Express.js, JSON Web Tokens (JWT), Bcrypt.js, Axios
+AI Microservice            Python 3.10+, FastAPI, Pydantic, Uvicorn
+Database                   MongoDB, Mongoose ODM
+DevOps & Containerization  Docker, Docker Compose 
+
+Repository Layout
+
+diagnosx/
 ├── client/                 # React + Vite Frontend
 │   ├── src/
 │   │   ├── components/     # UI Components (Checker, Doctors, Portals)
