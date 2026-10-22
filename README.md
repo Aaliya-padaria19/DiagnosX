@@ -1,7 +1,9 @@
 # DiagnosX
 DiagnosX — Full-Stack AI Symptom Checker & amp; Doctor Recommendation System
 
-DiagnosX — Full-Stack AI Symptom Checker & Doctor Recommendation SystemAn enterprise-grade, full-stack Single Page Application (SPA) designed to evaluate patient symptoms using Machine Learning, determine triage urgency levels, and match patients with specialized healthcare providers for seamless appointment booking.Built on a hybrid MERN Stack + Python FastAPI Microservice architecture, DiagnosX demonstrates modern full-stack web development, token-based authentication, real-time AI processing, NoSQL data modeling, and Docker container orchestration.📸 System Architecture & Overview                          
+DiagnosX — Full-Stack AI Symptom Checker & Doctor Recommendation SystemAn enterprise-grade, full-stack Single Page Application (SPA) designed to evaluate patient symptoms using Machine Learning, determine triage urgency levels, and match patients with specialized healthcare providers for seamless appointment booking.Built on a hybrid MERN Stack + Python FastAPI Microservice architecture, DiagnosX demonstrates modern full-stack web development, token-based authentication, real-time AI processing, NoSQL data modeling, and Docker container orchestration. 
+
+System Architecture & Overview                          
 
                           ┌───────────────────────────┐
                           │    React + Vite SPA       │
@@ -22,7 +24,13 @@ DiagnosX — Full-Stack AI Symptom Checker & Doctor Recommendation SystemAn ente
           └───────────────────────────┘   └───────────────────────────┘
 
 Key Features
-AI-Powered Symptom Triage: Interactive multi-step form capturing body region, duration, severity index (1-10), and custom symptom vectors routed to a Python ML microservice. Doctor Match Engine: Dynamic search and filtering system matching triage outcome specialties (Cardiology, Neurology, Pulmonology, etc.) with available specialist doctor profiles. Instant Consultation Booking: Interactive slot selection modal connected with live appointment state persistence.Patient Dashboard: Patient history tracking with full assessment log exports (JSON format) and active WebRTC consultation links. Doctor Triage Portal: Specialized portal allowing doctors to review incoming patient referrals, examine AI confidence scores, and accept cases. Embedded Architecture Viewer: Interactive code and diagram viewer directly in the application UI demonstrating production backend, microservice, schema, and configuration source codes. 
+
+*AI-Powered Symptom Triage: Interactive multi-step form capturing body region, duration, severity index (1-10), and custom symptom vectors routed to a Python ML microservice. 
+*Doctor Match Engine: Dynamic search and filtering system matching triage outcome specialties (Cardiology, Neurology, Pulmonology, etc.) with available specialist doctor profiles. 
+*Instant Consultation Booking: Interactive slot selection modal connected with live appointment state persistence.
+*Patient Dashboard: Patient history tracking with full assessment log exports (JSON format) and active WebRTC consultation links. 
+*Doctor Triage Portal: Specialized portal allowing doctors to review incoming patient referrals, examine AI confidence scores, and accept cases. 
+*Embedded Architecture Viewer: Interactive code and diagram viewer directly in the application UI demonstrating production backend, microservice, schema, and configuration source codes. 
 
 Technology Stack
 
@@ -60,7 +68,9 @@ diagnosx/
 └── docker-compose.yml      # Multi-container orchestration config
 ```
 
-Quick Start & Local SetupOption 1: Docker Compose (Recommended)Run the entire full-stack application environment (MongoDB, FastAPI, Express, React) with a single command:# Clone repository
+Quick Start & Local Setup
+
+Option 1: Docker Compose (Recommended)Run the entire full-stack application environment (MongoDB, FastAPI, Express, React) with a single command:# Clone repository
 git clone https://github.com/your-username/diagnosx.git
 cd diagnosx
 
